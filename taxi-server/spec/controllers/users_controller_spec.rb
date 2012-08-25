@@ -31,14 +31,6 @@ describe UsersController do
     }
   end
 
-  describe "GET index" do
-    it "assigns all users as @users" do
-      user = FactoryGirl.create :user
-      get :index, {}
-      assigns(:users).should eq([user])
-    end
-  end
-
   describe "GET show" do
     it "assigns the requested user as @user" do
       user = FactoryGirl.create :user
@@ -62,43 +54,6 @@ describe UsersController do
     end
   end
 
-  describe "POST create" do
-    describe "with valid params" do
-      it "creates a new User" do
-        expect {
-          post :create, {:user => valid_attributes}
-        }.to change(User, :count).by(1)
-      end
-
-      it "assigns a newly created user as @user" do
-        post :create, {:user => valid_attributes}
-        assigns(:user).should be_a(User)
-        assigns(:user).should be_persisted
-      end
-
-      it "redirects to the created user" do
-        post :create, {:user => valid_attributes}
-        response.should redirect_to(User.last)
-      end
-    end
-
-    describe "with invalid params" do
-      it "assigns a newly created but unsaved user as @user" do
-        # Trigger the behavior that occurs when invalid params are submitted
-        User.any_instance.stub(:save).and_return(false)
-        post :create, {:user => {}}
-        assigns(:user).should be_a_new(User)
-      end
-
-      it "re-renders the 'new' template" do
-        # Trigger the behavior that occurs when invalid params are submitted
-        User.any_instance.stub(:save).and_return(false)
-        post :create, {:user => {}}
-        response.should render_template("new")
-      end
-    end
-  end
-
   describe "PUT update" do
     describe "with valid params" do
       it "updates the requested user" do
@@ -111,12 +66,6 @@ describe UsersController do
         user = FactoryGirl.create :user
         put :update, {:id => user.to_param, :user => valid_attributes}
         assigns(:user).should eq(user)
-      end
-
-      it "redirects to the user" do
-        user = FactoryGirl.create :user
-        put :update, {:id => user.to_param, :user => valid_attributes}
-        response.should redirect_to(user)
       end
     end
 
