@@ -76,6 +76,8 @@ RSpec.configure do |config|
   # the seed, which is printed after each run.
   #     --seed 1234
   config.order = "random"
+
+  configuration.include Mongoid::Matchers
 end
 
 Spork.each_run do
