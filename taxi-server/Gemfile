@@ -8,7 +8,7 @@ gem 'rails', '3.2.8'
 gem 'mongoid', '~> 3.0.5'
 gem 'heroku'
 gem 'jquery-rails'
-
+gem 'devise', '~> 2.1.2'
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -37,6 +37,7 @@ group :development do
   gem 'guard-spork'
   gem 'spork', '~> 1.0rc'
   gem 'pry-rails'
+  gem 'rspec-nc'
 end
 
 group :development, :test do
