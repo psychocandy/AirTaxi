@@ -7,6 +7,3 @@
 [submodule "client/lib/ember_data"]
 	path = client/lib/ember_data
 	url = git://github.com/emberjs/data.git
-[submodule "client/lib/ember-skeleton"]
-	path = client/lib/ember-skeleton
-	url = git://github.com/interline/ember-skeleton.git
