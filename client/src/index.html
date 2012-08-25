@@ -1,19 +1,42 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>
-      
-    </title>
+    <title>AirTaxi</title>
+    <meta name="viewport" content="width=device-width,height=device-height, initial-scale=1"/>
+    <script type="text/javascript" src="../lib/js/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="../lib/js/jquery.mobile-1.1.1.min.js"></script>
+    <script type="text/javascript" src="../lib/js/underscore-min.js"></script>
+    <script type="text/javascript" src="../lib/js/json2.js"></script>
+    <script type="text/javascript" src="../lib/js/backbone-min.js"></script>
+    <script type="text/javascript" src="../lib/js/backbone-relational.js"></script>
 
-    <script type="text/javascript" src="lib/jquery_mobile/compiled/jquery.mobile.min.js"></script>
-	<link href="lib/jquery_mobile/compiled/jquery.mobile.min.css" type="text/css" rel="stylesheet" />
-    
+    <script type="text/javascript" src="models.js"></script>
+    <script type="text/javascript" src="views.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+    <link href="../lib/css/jquery.mobile-1.1.1.min.css" type="text/css" rel="stylesheet" />
   </head>
   
   <body>
-    <script type="text/x-handlebars">
-      {{view templateName="sample"}}
-    </script>
+    <div data-role="page" id="get_ride">
+      <div data-role="header">
+        <h1>Find a ride!</h1>
+      </div>
+      <div data-role="content">
+        <div data-role="fieldcontain">
+          <label for="from">From:</label>
+          <input type="text" name="from" id="from" disabled/>
+        </div>
+        <div data-role="fieldcontain">
+          <label for="to">To:</label>
+          <input type="text" name="to" id="to" />
+        </div>
+        <div data-role="fieldcontain">
+          <label for="when">When:</label>
+          <input type="text" name="when" id="when" />
+        </div>
+        <button type="submit" name="submit" value="submit-value">Get a Ride!</button>
+      </div>
+
+    </div>
   </body>
-  
 </html>
