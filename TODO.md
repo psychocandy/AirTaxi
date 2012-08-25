@@ -12,6 +12,7 @@
 * Users
 
 ## Client
+* [IMPORTANT] Add backbone relations testing with jasmine
 * Add domain whitelisting to google maps and facebook - http://docs.phonegap.com/en/2.0.0/guide_whitelist_index.md.html#Domain%20Whitelist%20Guide
 * Google Maps API integration - geolocation to streetname
 * List view - all nearby locations
