@@ -1,0 +1,6 @@
+[submodule "client/lib/jquery_mobile"]
+	path = client/lib/jquery_mobile
+	url = git://github.com/jquery/jquery-mobile.git
+[submodule "client/lib/ember.js"]
+	path = client/lib/ember.js
+	url = git://github.com/emberjs/ember.js.git
