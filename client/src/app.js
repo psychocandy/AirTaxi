@@ -1,9 +1,26 @@
-window.AirTaxi = Ember.Application.create({
-  ready: function() {
-    this._super();
-    // this is a good place for any app initialization code.
-    // it's also where i'd recommend placing a StateManager, if you use one,
-    // since you want to make sure the templates of the views have loaded before you
-    // go to their state
-  }
+// expose air taxi to the main page..
+window.AirTaxi = window.AirTaxi || {};
+
+$(function(){
+	
+	var ApplicationRouter = Backbone.Router.extend({
+		routes: {
+			"": "get_ride"
+		},
+		initialize: function(options) {
+			
+		},
+		get_ride : function(){
+			var getRideView = new window.AirTaxi.Views.GetRideView();
+			window.t = getRideView;
+		}
+	});	
+
+	
+
+	
+	
+	window.AirTaxi.Router = new ApplicationRouter();
+	Backbone.history.start();	
+
 });
