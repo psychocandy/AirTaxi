@@ -1,12 +1,7 @@
 TaxiServer::Application.routes.draw do
   devise_for :users
 
-  resources :users do
-    collection do
-      get :hello
-    end
-  end
-
+  resources :users
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
