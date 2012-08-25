@@ -1,6 +1,6 @@
 # Requests API
 
-## Get Taxi (GET)
+## Get Avilable Rides (GET)
 ### Request
 * from: location (lat,long)
 * to: location (lat,long) 
@@ -9,16 +9,16 @@
 ### Response
 * success: true/false
 * message: string, user friendly message
-* groups : Array of groups
-	* group_id : number
+* rides : Array of rides
+	* ride_id : number
 	* to: location (lat,long)
 	* when: unix time
 	* users_count : number
 	
 	
-## Group Details (GET)
+## Get Ride Details (GET)
 ### Request
-* group_id : number
+* ride_id : number
 
 ### Response
 * succes true/false
