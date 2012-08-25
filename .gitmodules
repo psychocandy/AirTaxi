@@ -1,3 +1,0 @@
-[submodule "client/lib/ember_data"]
-	path = client/lib/ember_data
-	url = git://github.com/emberjs/data.git
