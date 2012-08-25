@@ -2,13 +2,13 @@ class User
   include Mongoid::Document
   include Mongoid::Timestamps
   include Mongoid::Paranoia
+  attr_accessible :name, :email, :phone, :password
 
   field :name, type: String
   field :email, type: String
   field :phone, type: String
   field :rating, type: Integer
 
-  attr_accessible :name, :email, :phone
 
   # Include default devise modules. Others available are:
   # :token_authenticatable, :confirmable,
