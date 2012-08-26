@@ -1,0 +1,678 @@
+TAirtaxi
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/Airtaxi.app/Info.plist Airtaxi/Airtaxi-Info.plist
+cPhaseScriptExecution "Touch www folder" /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/build/Airtaxi.build/Debug-iphonesimulator/Airtaxi.build/Script-304B58A110DAC018002A0835.sh
+cCpResource /Users/yosyattias/Documents/CordovaLib/VERSION cordova/../build/Airtaxi.app/VERSION
+cCpResource www cordova/../build/Airtaxi.app/www
+cCpResource Airtaxi/Resources/icons/icon-72.png cordova/../build/Airtaxi.app/icon-72.png
+cCopyPlistFile /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/Airtaxi.app/Cordova.plist Airtaxi/Resources/../Cordova.plist
+cCpResource Airtaxi/Resources/icons/icon.png cordova/../build/Airtaxi.app/icon.png
+cCpResource Airtaxi/Resources/icons/icon@2x.png cordova/../build/Airtaxi.app/icon@2x.png
+cCpResource Airtaxi/Resources/Capture.bundle cordova/../build/Airtaxi.app/Capture.bundle
+cCopyStringsFile /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/Airtaxi.app/en.lproj/Localizable.strings Airtaxi/Resources/en.lproj/Localizable.strings
+cCopyStringsFile /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/Airtaxi.app/es.lproj/Localizable.strings Airtaxi/Resources/es.lproj/Localizable.strings
+cCompileXIB /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/Airtaxi/Classes/MainViewController.xib
+cCopyStringsFile /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/Airtaxi.app/de.lproj/Localizable.strings Airtaxi/Resources/de.lproj/Localizable.strings
+cCopyStringsFile /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/Airtaxi.app/se.lproj/Localizable.strings Airtaxi/Resources/se.lproj/Localizable.strings
+cCpResource Airtaxi/Resources/splash/Default-Landscape@2x~ipad.png cordova/../build/Airtaxi.app/Default-Landscape@2x~ipad.png
+cCpResource Airtaxi/Resources/splash/Default-Landscape~ipad.png cordova/../build/Airtaxi.app/Default-Landscape~ipad.png
+cCpResource Airtaxi/Resources/splash/Default-Portrait@2x~ipad.png cordova/../build/Airtaxi.app/Default-Portrait@2x~ipad.png
+cCpResource Airtaxi/Resources/splash/Default-Portrait~ipad.png cordova/../build/Airtaxi.app/Default-Portrait~ipad.png
+cCpResource Airtaxi/Resources/splash/Default@2x~iphone.png cordova/../build/Airtaxi.app/Default@2x~iphone.png
+cCpResource Airtaxi/Resources/splash/Default~iphone.png cordova/../build/Airtaxi.app/Default~iphone.png
+cProcessPCH /var/folders/8p/9nrmskhs645bf8h8gckhxlp00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Airtaxi-Prefix-ewfzbperbmvvwtfxeilmpymrhusj/Airtaxi-Prefix.pch.pth Airtaxi/Airtaxi-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Airtaxi.build/Debug-iphonesimulator/Airtaxi.build/Objects-normal/i386/AppDelegate.o /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/Airtaxi/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Airtaxi.build/Debug-iphonesimulator/Airtaxi.build/Objects-normal/i386/main.o /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/Airtaxi/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Airtaxi.build/Debug-iphonesimulator/Airtaxi.build/Objects-normal/i386/MainViewController.o /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/Airtaxi/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/Airtaxi.app/Airtaxi normal i386
+cGenerateDSYMFile /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/Airtaxi.app.dSYM /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/Airtaxi.app/Airtaxi
+cTouch /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/Airtaxi.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk
+c000000004F453DF80000000000000110
+t1329937912
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000005033C4F70000000000182900
+t1345570039
+s1583360
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/AddressBook.framework/AddressBook
+c000000005033C4F60000000000095860
+t1345570038
+s612448
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/AddressBookUI.framework/AddressBookUI
+c000000005033C4F70000000000169880
+t1345570039
+s1480832
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000005033C4F700000000002FDC30
+t1345570039
+s3136560
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c000000005033C4F700000000002051E0
+t1345570039
+s2118112
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000005033C4F70000000000244490
+t1345570039
+s2376848
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c000000005033C4F70000000000089510
+t1345570039
+s562448
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+c000000005033C4F80000000000069670
+t1345570040
+s431728
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000005033C4F80000000000353830
+t1345570040
+s3487792
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
+c000000005033C4FB0000000000243A90
+t1345570043
+s2374288
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c000000005033C4FB00000000000998D0
+t1345570043
+s628944
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000005033C4FC00000000001AB190
+t1345570044
+s1749392
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c000000005033C4FC000000000006C8A0
+t1345570044
+s444576
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000005033C4FE0000000000905E40
+t1345570046
+s9461312
+
+N/Users/yosyattias/Documents/CordovaLib/VERSION
+c0000000050089EE90000000000000005
+t1342742249
+s5
+
+N/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/Airtaxi/Airtaxi-Prefix.pch
+c000000005038C0C700000000000003BF
+t1345896647
+s959
+
+N/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/Airtaxi/Classes/AppDelegate.h
+c000000005038C0C700000000000005BD
+t1345896647
+s1469
+
+N/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/Airtaxi/Classes/AppDelegate.m
+c000000005038C0C7000000000000132F
+t1345896647
+s4911
+
+N/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/Airtaxi/Classes/MainViewController.h
+c000000005038C0C7000000000000040E
+t1345896647
+s1038
+
+N/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/Airtaxi/Classes/MainViewController.m
+c000000005038C0C70000000000000FFE
+t1345896647
+s4094
+
+N/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/Airtaxi/Classes/MainViewController.xib
+c000000005038C0C70000000000001759
+t1345896647
+s5977
+
+N/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/Airtaxi/Resources/../Cordova.plist
+c00000000503A6D9C00000000000006BD
+t1346006428
+s1725
+
+N/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/Airtaxi/Resources/Capture.bundle
+c000000005038C0C700000000000002EC
+t1345896647
+s748
+
+N/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/Airtaxi/Resources/de.lproj/Localizable.strings
+c000000005038C0C70000000000000485
+t1345896647
+s1157
+
+N/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/Airtaxi/Resources/en.lproj/Localizable.strings
+c000000005038C0C70000000000000470
+t1345896647
+s1136
+
+N/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/Airtaxi/Resources/es.lproj/Localizable.strings
+c000000005038C0C7000000000000047D
+t1345896647
+s1149
+
+N/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/Airtaxi/Resources/icons/icon-72.png
+c000000005038C0C70000000000001350
+t1345896647
+s4944
+
+N/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/Airtaxi/Resources/icons/icon.png
+c000000005038C0C70000000000000F3E
+t1345896647
+s3902
+
+N/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/Airtaxi/Resources/icons/icon@2x.png
+c000000005038C0C70000000000001EBD
+t1345896647
+s7869
+
+N/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/Airtaxi/Resources/se.lproj/Localizable.strings
+c000000005038C0C70000000000000471
+t1345896647
+s1137
+
+N/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/Airtaxi/Resources/splash/Default-Landscape@2x~ipad.png
+c000000005038C0C70000000000176888
+t1345896647
+s1534088
+
+N/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/Airtaxi/Resources/splash/Default-Landscape~ipad.png
+c000000005038C0C700000000000674B7
+t1345896647
+s423095
+
+N/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/Airtaxi/Resources/splash/Default-Portrait@2x~ipad.png
+c000000005038C0C700000000001892C2
+t1345896647
+s1610434
+
+N/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/Airtaxi/Resources/splash/Default-Portrait~ipad.png
+c000000005038C0C70000000000066F23
+t1345896647
+s421667
+
+N/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/Airtaxi/Resources/splash/Default@2x~iphone.png
+c000000005038C0C70000000000055981
+t1345896647
+s350593
+
+N/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/Airtaxi/Resources/splash/Default~iphone.png
+c000000005038C0C70000000000016EC9
+t1345896647
+s93897
+
+N/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/Airtaxi/main.m
+c000000005038C0C70000000000000490
+t1345896647
+s1168
+
+N/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/build/Airtaxi.build/Debug-iphonesimulator/Airtaxi.build/Objects-normal/i386/Airtaxi.LinkFileList
+c00000000503A78C600000000000001B6
+t1346009286
+s438
+
+N/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/build/Airtaxi.build/Debug-iphonesimulator/Airtaxi.build/Objects-normal/i386/AppDelegate.o
+t2
+s0
+
+N/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/build/Airtaxi.build/Debug-iphonesimulator/Airtaxi.build/Objects-normal/i386/MainViewController.o
+t2
+s0
+
+N/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/build/Airtaxi.build/Debug-iphonesimulator/Airtaxi.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/build/Airtaxi.build/Debug-iphonesimulator/Airtaxi.build/Script-304B58A110DAC018002A0835.sh
+c00000000503A78C60000000000000027
+t1346009286
+s39
+
+N/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/build/libCordova.a
+c00000000503A78C6000000000027C3B0
+t1346009286
+s2606000
+
+N/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/Airtaxi.app
+t2
+s0
+
+N/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/Airtaxi.app.dSYM
+t2
+s0
+
+N/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/Airtaxi.app/Airtaxi
+t2
+s0
+
+N/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/Airtaxi.app/Capture.bundle
+t2
+s0
+
+N/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/Airtaxi.app/Cordova.plist
+t2
+s0
+
+N/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/Airtaxi.app/Default-Landscape@2x~ipad.png
+t2
+s0
+
+N/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/Airtaxi.app/Default-Landscape~ipad.png
+t2
+s0
+
+N/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/Airtaxi.app/Default-Portrait@2x~ipad.png
+t2
+s0
+
+N/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/Airtaxi.app/Default-Portrait~ipad.png
+t2
+s0
+
+N/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/Airtaxi.app/Default@2x~iphone.png
+t2
+s0
+
+N/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/Airtaxi.app/Default~iphone.png
+t2
+s0
+
+N/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/Airtaxi.app/Info.plist
+t2
+s0
+
+N/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/Airtaxi.app/MainViewController.nib
+t2
+s0
+
+N/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/Airtaxi.app/PkgInfo
+t2
+s0
+
+N/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/Airtaxi.app/VERSION
+t2
+s0
+
+N/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/Airtaxi.app/de.lproj/Localizable.strings
+t2
+s0
+
+N/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/Airtaxi.app/en.lproj/Localizable.strings
+t2
+s0
+
+N/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/Airtaxi.app/es.lproj/Localizable.strings
+t2
+s0
+
+N/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/Airtaxi.app/icon-72.png
+t2
+s0
+
+N/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/Airtaxi.app/icon.png
+t2
+s0
+
+N/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/Airtaxi.app/icon@2x.png
+t2
+s0
+
+N/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/Airtaxi.app/se.lproj/Localizable.strings
+t2
+s0
+
+N/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/Airtaxi.app/www
+t2
+s0
+
+N/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/include/Cordova/CDVCommandDelegate.h
+c00000000503A78340000000000000455
+t1346009140
+s1109
+
+N/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/include/Cordova/CDVCordovaView.h
+c00000000503A78340000000000000357
+t1346009140
+s855
+
+N/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/include/Cordova/CDVInvokedUrlCommand.h
+c00000000503A783400000000000004CA
+t1346009140
+s1226
+
+N/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/include/Cordova/CDVPlugin.h
+c00000000503A783400000000000007E5
+t1346009140
+s2021
+
+N/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/include/Cordova/CDVPluginResult.h
+c00000000503A7834000000000000097E
+t1346009140
+s2430
+
+N/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/include/Cordova/CDVURLProtocol.h
+c00000000503A783400000000000004B1
+t1346009140
+s1201
+
+N/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/include/Cordova/CDVViewController.h
+c00000000503A78340000000000000996
+t1346009140
+s2454
+
+N/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/include/Cordova/CDVWhitelist.h
+c00000000503A783400000000000004B0
+t1346009140
+s1200
+
+N/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/include/Cordova/JSONKit.h
+c00000000503A78340000000000002EA2
+t1346009140
+s11938
+
+N/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/include/Cordova/NSMutableArray+QueueAdditions.h
+c00000000503A783400000000000003A7
+t1346009140
+s935
+
+N/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/www
+c00000000503A78B20000000000000154
+t1346009266
+s340
+
+N/var/folders/8p/9nrmskhs645bf8h8gckhxlp00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Airtaxi-Prefix-ewfzbperbmvvwtfxeilmpymrhusj/Airtaxi-Prefix.pch.pth
+t2
+s0
+
+NAirtaxi/Airtaxi-Info.plist
+c000000005038C0C700000000000009CB
+t1345896647
+s2507
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesdffde546b0eab541^cae2e646b0eab541^---0#1#0#--18"Check dependencies36"FC7AF90E-2DC1-4472-B3C8-05F7D382798D-
+
+CCompileC build/Airtaxi.build/Debug-iphonesimulator/Airtaxi.build/Objects-normal/i386/AppDelegate.o /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/Airtaxi/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s367702087.871181
+e367702087.951933
+r1
+xCompileC
+xbuild/Airtaxi.build/Debug-iphonesimulator/Airtaxi.build/Objects-normal/i386/AppDelegate.o
+x/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/Airtaxi/Classes/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/Airtaxi/Classes/AppDelegate.m:77:25: warning: 'invokeString' is deprecated [-Wdeprecated-declarations]
+o    self.viewController.invokeString = invokeString;
+o                        ^
+o1 warning generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compile /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/Airtaxi/Classes/AppDelegate.m3333df47b0eab541^14b2f347b0eab541^-259"/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/Airtaxi/Classes/AppDelegate.m:77:25: warning: 'invokeString' is deprecated [-Wdeprecated-declarations]    self.viewController.invokeString = invokeString;                        ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@28"'invokeString' is deprecated-367702087#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@101"file://localhost/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/Airtaxi/Classes/AppDelegate.m0000000000000000^76#24#76#24#2539#0#12"Deprecations--0#0#0#-19%DVTDocumentLocation4@101"file://localhost/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/Airtaxi/Classes/AppDelegate.m0000000000000000^3915"CompileC build/Airtaxi.build/Debug-iphonesimulator/Airtaxi.build/Objects-normal/i386/AppDelegate.o Airtaxi/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yosyattias/Projects/AirTaxi/client/platforms/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/yosyattias/.rbenv/shims:/Users/yosyattias/.rbenv/bin:/Users/yosyattias/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/usr/local/sbin:/Users/yosyattias/bin:/usr/local/hadoop/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/build/Airtaxi.build/Debug-iphonesimulator/Airtaxi.build/Airtaxi-generated-files.hmap -I/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/build/Airtaxi.build/Debug-iphonesimulator/Airtaxi.build/Airtaxi-own-target-headers.hmap -I/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/build/Airtaxi.build/Debug-iphonesimulator/Airtaxi.build/Airtaxi-all-target-headers.hmap -iquote /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/build/Airtaxi.build/Debug-iphonesimulator/Airtaxi.build/Airtaxi-project-headers.hmap -I/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/include -I/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/usr/local/lib/include -I/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/build/UninstalledProducts/include -I/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build -I/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/build/Airtaxi.build/Debug-iphonesimulator/Airtaxi.build/DerivedSources/i386 -I/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/build/Airtaxi.build/Debug-iphonesimulator/Airtaxi.build/DerivedSources -F/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build -include /var/folders/8p/9nrmskhs645bf8h8gckhxlp00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Airtaxi-Prefix-ewfzbperbmvvwtfxeilmpymrhusj/Airtaxi-Prefix.pch -MMD -MT dependencies -MF /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/build/Airtaxi.build/Debug-iphonesimulator/Airtaxi.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/build/Airtaxi.build/Debug-iphonesimulator/Airtaxi.build/Objects-normal/i386/AppDelegate.dia -c /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/Airtaxi/Classes/AppDelegate.m -o /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/build/Airtaxi.build/Debug-iphonesimulator/Airtaxi.build/Objects-normal/i386/AppDelegate.o36"90ACF37E-BC0F-463E-A8CC-510C33A55DAB-
+
+CCompileC build/Airtaxi.build/Debug-iphonesimulator/Airtaxi.build/Objects-normal/i386/MainViewController.o /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/Airtaxi/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s367702087.871187
+e367702087.945524
+r1
+xCompileC
+xbuild/Airtaxi.build/Debug-iphonesimulator/Airtaxi.build/Objects-normal/i386/MainViewController.o
+x/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/Airtaxi/Classes/MainViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/Airtaxi/Classes/MainViewController.m:108:15: warning: 'invokeString' is deprecated [-Wdeprecated-declarations]
+o     if (self.invokeString)
+o              ^
+o/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/Airtaxi/Classes/MainViewController.m:112:93: warning: 'invokeString' is deprecated [-Wdeprecated-declarations]
+o        NSString* jsString = [NSString stringWithFormat:@"var invokeString = \"%@\";", self.invokeString];
+o                                                                                            ^
+o2 warnings generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Compile /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/Airtaxi/Classes/MainViewController.m0536df47b0eab541^cc0df247b0eab541^-601"/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/Airtaxi/Classes/MainViewController.m:108:15: warning: 'invokeString' is deprecated [-Wdeprecated-declarations]     if (self.invokeString)              ^/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/Airtaxi/Classes/MainViewController.m:112:93: warning: 'invokeString' is deprecated [-Wdeprecated-declarations]        NSString* jsString = [NSString stringWithFormat:@"var invokeString = \"%@\";", self.invokeString];                                                                                            ^2 warnings generated.2(36%IDEClangDiagnosticActivityLogMessage2@28"'invokeString' is deprecated-367702087#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@108"file://localhost/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/Airtaxi/Classes/MainViewController.m0000000000000000^107#14#107#14#2851#0#12"Deprecations--2@28"'invokeString' is deprecated-367702087#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@108"file://localhost/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/Airtaxi/Classes/MainViewController.m0000000000000000^111#92#111#92#3261#0#12"Deprecations--0#0#0#-19%DVTDocumentLocation4@108"file://localhost/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/Airtaxi/Classes/MainViewController.m0000000000000000^3957"CompileC build/Airtaxi.build/Debug-iphonesimulator/Airtaxi.build/Objects-normal/i386/MainViewController.o Airtaxi/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yosyattias/Projects/AirTaxi/client/platforms/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/yosyattias/.rbenv/shims:/Users/yosyattias/.rbenv/bin:/Users/yosyattias/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/usr/local/sbin:/Users/yosyattias/bin:/usr/local/hadoop/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/build/Airtaxi.build/Debug-iphonesimulator/Airtaxi.build/Airtaxi-generated-files.hmap -I/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/build/Airtaxi.build/Debug-iphonesimulator/Airtaxi.build/Airtaxi-own-target-headers.hmap -I/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/build/Airtaxi.build/Debug-iphonesimulator/Airtaxi.build/Airtaxi-all-target-headers.hmap -iquote /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/build/Airtaxi.build/Debug-iphonesimulator/Airtaxi.build/Airtaxi-project-headers.hmap -I/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/include -I/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/usr/local/lib/include -I/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/build/UninstalledProducts/include -I/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build -I/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/build/Airtaxi.build/Debug-iphonesimulator/Airtaxi.build/DerivedSources/i386 -I/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/build/Airtaxi.build/Debug-iphonesimulator/Airtaxi.build/DerivedSources -F/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build -include /var/folders/8p/9nrmskhs645bf8h8gckhxlp00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Airtaxi-Prefix-ewfzbperbmvvwtfxeilmpymrhusj/Airtaxi-Prefix.pch -MMD -MT dependencies -MF /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/build/Airtaxi.build/Debug-iphonesimulator/Airtaxi.build/Objects-normal/i386/MainViewController.d --serialize-diagnostics /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/build/Airtaxi.build/Debug-iphonesimulator/Airtaxi.build/Objects-normal/i386/MainViewController.dia -c /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/Airtaxi/Classes/MainViewController.m -o /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/build/Airtaxi.build/Debug-iphonesimulator/Airtaxi.build/Objects-normal/i386/MainViewController.o36"CD1D542C-75B3-4ED1-87C6-C9AE11522BC2-
+
+CCompileC build/Airtaxi.build/Debug-iphonesimulator/Airtaxi.build/Objects-normal/i386/main.o /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/Airtaxi/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s367702087.871176
+e367702087.895576
+r1
+xCompileC
+xbuild/Airtaxi.build/Debug-iphonesimulator/Airtaxi.build/Objects-normal/i386/main.o
+x/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/Airtaxi/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compile /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/Airtaxi/main.m0b29df47b0eab541^ed44e547b0eab541^---0#0#0#-19%DVTDocumentLocation2@86"file://localhost/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/Airtaxi/main.m0000000000000000^3857"CompileC build/Airtaxi.build/Debug-iphonesimulator/Airtaxi.build/Objects-normal/i386/main.o Airtaxi/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yosyattias/Projects/AirTaxi/client/platforms/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/yosyattias/.rbenv/shims:/Users/yosyattias/.rbenv/bin:/Users/yosyattias/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/usr/local/sbin:/Users/yosyattias/bin:/usr/local/hadoop/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/build/Airtaxi.build/Debug-iphonesimulator/Airtaxi.build/Airtaxi-generated-files.hmap -I/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/build/Airtaxi.build/Debug-iphonesimulator/Airtaxi.build/Airtaxi-own-target-headers.hmap -I/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/build/Airtaxi.build/Debug-iphonesimulator/Airtaxi.build/Airtaxi-all-target-headers.hmap -iquote /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/build/Airtaxi.build/Debug-iphonesimulator/Airtaxi.build/Airtaxi-project-headers.hmap -I/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/include -I/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/usr/local/lib/include -I/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/build/UninstalledProducts/include -I/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build -I/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/build/Airtaxi.build/Debug-iphonesimulator/Airtaxi.build/DerivedSources/i386 -I/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/build/Airtaxi.build/Debug-iphonesimulator/Airtaxi.build/DerivedSources -F/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build -include /var/folders/8p/9nrmskhs645bf8h8gckhxlp00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Airtaxi-Prefix-ewfzbperbmvvwtfxeilmpymrhusj/Airtaxi-Prefix.pch -MMD -MT dependencies -MF /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/build/Airtaxi.build/Debug-iphonesimulator/Airtaxi.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/build/Airtaxi.build/Debug-iphonesimulator/Airtaxi.build/Objects-normal/i386/main.dia -c /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/Airtaxi/main.m -o /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/build/Airtaxi.build/Debug-iphonesimulator/Airtaxi.build/Objects-normal/i386/main.o36"6504E7DA-48A4-4CB5-B25F-85835AD26B36-
+
+CCompileXIB /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/Airtaxi/Classes/MainViewController.xib
+s367702086.970407
+e367702087.583302
+r1
+xCompileXIB
+x/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/Airtaxi/Classes/MainViewController.xib
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Compiling /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/Airtaxi/Classes/MainViewController.xib478ef846b0eab541^32589547b0eab541^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/Airtaxi/Classes/MainViewController.xib0000000000000000^1134"CompileXIB Airtaxi/Classes/MainViewController.xib    cd /Users/yosyattias/Projects/AirTaxi/client/platforms/ios    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/yosyattias/.rbenv/shims:/Users/yosyattias/.rbenv/bin:/Users/yosyattias/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/usr/local/sbin:/Users/yosyattias/bin:/usr/local/hadoop/bin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/Airtaxi.app/MainViewController.nib /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/Airtaxi/Classes/MainViewController.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk36"B9F08DCC-5C41-4611-B871-F9B3B04E6E40-
+
+CCopyPlistFile /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/Airtaxi.app/Cordova.plist Airtaxi/Resources/../Cordova.plist
+s367702086.960514
+e367702086.966247
+r1
+xCopyPlistFile
+x/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/Airtaxi.app/Cordova.plist
+xAirtaxi/Resources/../Cordova.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Copy Airtaxi/Resources/../Cordova.plistf208f646b0eab541^895df746b0eab541^---0#0#0#-19%DVTDocumentLocation2@106"file://localhost/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/Airtaxi/Resources/../Cordova.plist0000000000000000^701"CopyPlistFile cordova/../build/Airtaxi.app/Cordova.plist Airtaxi/Resources/../Cordova.plist    cd /Users/yosyattias/Projects/AirTaxi/client/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/yosyattias/.rbenv/shims:/Users/yosyattias/.rbenv/bin:/Users/yosyattias/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/usr/local/sbin:/Users/yosyattias/bin:/usr/local/hadoop/bin"    builtin-copyPlist --convert binary1 --outdir /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/Airtaxi.app -- Airtaxi/Resources/../Cordova.plist36"11797077-BC73-404A-A77E-FB5DC481B3C7-
+
+CCopyStringsFile /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/Airtaxi.app/de.lproj/Localizable.strings Airtaxi/Resources/de.lproj/Localizable.strings
+s367702086.974398
+e367702086.979555
+r1
+xCopyStringsFile
+x/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/Airtaxi.app/de.lproj/Localizable.strings
+xAirtaxi/Resources/de.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"Copy Airtaxi/Resources/de.lproj/Localizable.strings8e94f946b0eab541^d1cdfa46b0eab541^---0#0#0#-19%DVTDocumentLocation2@118"file://localhost/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/Airtaxi/Resources/de.lproj/Localizable.strings0000000000000000^792"CopyStringsFile cordova/../build/Airtaxi.app/de.lproj/Localizable.strings Airtaxi/Resources/de.lproj/Localizable.strings    cd /Users/yosyattias/Projects/AirTaxi/client/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/yosyattias/.rbenv/shims:/Users/yosyattias/.rbenv/bin:/Users/yosyattias/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/usr/local/sbin:/Users/yosyattias/bin:/usr/local/hadoop/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/Airtaxi.app/de.lproj -- Airtaxi/Resources/de.lproj/Localizable.strings36"2EA1883D-B049-48E7-B6D6-5A9ABDDD8203-
+
+CCopyStringsFile /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/Airtaxi.app/en.lproj/Localizable.strings Airtaxi/Resources/en.lproj/Localizable.strings
+s367702086.968354
+e367702086.972660
+r1
+xCopyStringsFile
+x/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/Airtaxi.app/en.lproj/Localizable.strings
+xAirtaxi/Resources/en.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"Copy Airtaxi/Resources/en.lproj/Localizable.strings4300f846b0eab541^6902f946b0eab541^---0#0#0#-19%DVTDocumentLocation2@118"file://localhost/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/Airtaxi/Resources/en.lproj/Localizable.strings0000000000000000^792"CopyStringsFile cordova/../build/Airtaxi.app/en.lproj/Localizable.strings Airtaxi/Resources/en.lproj/Localizable.strings    cd /Users/yosyattias/Projects/AirTaxi/client/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/yosyattias/.rbenv/shims:/Users/yosyattias/.rbenv/bin:/Users/yosyattias/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/usr/local/sbin:/Users/yosyattias/bin:/usr/local/hadoop/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/Airtaxi.app/en.lproj -- Airtaxi/Resources/en.lproj/Localizable.strings36"679DCF49-7DA4-416A-9FA4-99E32E11523E-
+
+CCopyStringsFile /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/Airtaxi.app/es.lproj/Localizable.strings Airtaxi/Resources/es.lproj/Localizable.strings
+s367702086.968371
+e367702086.977757
+r1
+xCopyStringsFile
+x/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/Airtaxi.app/es.lproj/Localizable.strings
+xAirtaxi/Resources/es.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"Copy Airtaxi/Resources/es.lproj/Localizable.strings8a03f846b0eab541^2861fa46b0eab541^---0#0#0#-19%DVTDocumentLocation2@118"file://localhost/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/Airtaxi/Resources/es.lproj/Localizable.strings0000000000000000^792"CopyStringsFile cordova/../build/Airtaxi.app/es.lproj/Localizable.strings Airtaxi/Resources/es.lproj/Localizable.strings    cd /Users/yosyattias/Projects/AirTaxi/client/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/yosyattias/.rbenv/shims:/Users/yosyattias/.rbenv/bin:/Users/yosyattias/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/usr/local/sbin:/Users/yosyattias/bin:/usr/local/hadoop/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/Airtaxi.app/es.lproj -- Airtaxi/Resources/es.lproj/Localizable.strings36"0D15EDE9-39B9-4826-A9EE-F02E7AB814F6-
+
+CCopyStringsFile /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/Airtaxi.app/se.lproj/Localizable.strings Airtaxi/Resources/se.lproj/Localizable.strings
+s367702086.975857
+e367702086.980169
+r1
+xCopyStringsFile
+x/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/Airtaxi.app/se.lproj/Localizable.strings
+xAirtaxi/Resources/se.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"Copy Airtaxi/Resources/se.lproj/Localizable.stringsf1f1f946b0eab541^5af4fa46b0eab541^---0#0#0#-19%DVTDocumentLocation2@118"file://localhost/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/Airtaxi/Resources/se.lproj/Localizable.strings0000000000000000^792"CopyStringsFile cordova/../build/Airtaxi.app/se.lproj/Localizable.strings Airtaxi/Resources/se.lproj/Localizable.strings    cd /Users/yosyattias/Projects/AirTaxi/client/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/yosyattias/.rbenv/shims:/Users/yosyattias/.rbenv/bin:/Users/yosyattias/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/usr/local/sbin:/Users/yosyattias/bin:/usr/local/hadoop/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/Airtaxi.app/se.lproj -- Airtaxi/Resources/se.lproj/Localizable.strings36"493E3099-429B-4D1D-B367-72592C15F343-
+
+CCpResource /Users/yosyattias/Documents/CordovaLib/VERSION cordova/../build/Airtaxi.app/VERSION
+s367702086.959970
+e367702086.962850
+r1
+xCpResource
+x/Users/yosyattias/Documents/CordovaLib/VERSION
+xcordova/../build/Airtaxi.app/VERSION
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Copy cordova/../build/Airtaxi.app/VERSIONdcd7f546b0eab541^317ef646b0eab541^---0#0#0#-19%DVTDocumentLocation2@108"file://localhost/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/Airtaxi.app/VERSION000000000080d041^776"CpResource /Users/yosyattias/Documents/CordovaLib/VERSION cordova/../build/Airtaxi.app/VERSION    cd /Users/yosyattias/Projects/AirTaxi/client/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/yosyattias/.rbenv/shims:/Users/yosyattias/.rbenv/bin:/Users/yosyattias/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/usr/local/sbin:/Users/yosyattias/bin:/usr/local/hadoop/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/yosyattias/Documents/CordovaLib/VERSION /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/Airtaxi.app36"46F073DF-536B-45FF-A069-76D903832DD8-
+
+CCpResource Airtaxi/Resources/Capture.bundle cordova/../build/Airtaxi.app/Capture.bundle
+s367702086.966937
+e367702086.974644
+r1
+xCpResource
+xAirtaxi/Resources/Capture.bundle
+xcordova/../build/Airtaxi.app/Capture.bundle
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection48"Copy cordova/../build/Airtaxi.app/Capture.bundle93acf746b0eab541^608ff946b0eab541^---0#0#0#-19%DVTDocumentLocation2@115"file://localhost/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/Airtaxi.app/Capture.bundle000000000080d041^811"CpResource Airtaxi/Resources/Capture.bundle cordova/../build/Airtaxi.app/Capture.bundle    cd /Users/yosyattias/Projects/AirTaxi/client/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/yosyattias/.rbenv/shims:/Users/yosyattias/.rbenv/bin:/Users/yosyattias/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/usr/local/sbin:/Users/yosyattias/bin:/usr/local/hadoop/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/Airtaxi/Resources/Capture.bundle /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/Airtaxi.app36"D5CDDB3D-0BC2-42CD-8D66-3A85ECCF9B15-
+
+CCpResource Airtaxi/Resources/icons/icon-72.png cordova/../build/Airtaxi.app/icon-72.png
+s367702086.960501
+e367702086.965296
+r1
+xCpResource
+xAirtaxi/Resources/icons/icon-72.png
+xcordova/../build/Airtaxi.app/icon-72.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Copy cordova/../build/Airtaxi.app/icon-72.png6d00f646b0eab541^6823f746b0eab541^---0#0#0#-19%DVTDocumentLocation2@112"file://localhost/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/Airtaxi.app/icon-72.png000000000080d041^814"CpResource Airtaxi/Resources/icons/icon-72.png cordova/../build/Airtaxi.app/icon-72.png    cd /Users/yosyattias/Projects/AirTaxi/client/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/yosyattias/.rbenv/shims:/Users/yosyattias/.rbenv/bin:/Users/yosyattias/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/usr/local/sbin:/Users/yosyattias/bin:/usr/local/hadoop/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/Airtaxi/Resources/icons/icon-72.png /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/Airtaxi.app36"FB97133C-B405-46CE-AA20-745EBA4CAB39-
+
+CCpResource Airtaxi/Resources/icons/icon.png cordova/../build/Airtaxi.app/icon.png
+s367702086.964074
+e367702086.967036
+r1
+xCpResource
+xAirtaxi/Resources/icons/icon.png
+xcordova/../build/Airtaxi.app/icon.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Copy cordova/../build/Airtaxi.app/icon.png70ebf646b0eab541^af96f746b0eab541^---0#0#0#-19%DVTDocumentLocation2@109"file://localhost/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/Airtaxi.app/icon.png000000000080d041^805"CpResource Airtaxi/Resources/icons/icon.png cordova/../build/Airtaxi.app/icon.png    cd /Users/yosyattias/Projects/AirTaxi/client/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/yosyattias/.rbenv/shims:/Users/yosyattias/.rbenv/bin:/Users/yosyattias/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/usr/local/sbin:/Users/yosyattias/bin:/usr/local/hadoop/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/Airtaxi/Resources/icons/icon.png /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/Airtaxi.app36"0C4AD5F2-4EC2-42FF-B50E-66484688AF56-
+
+CCpResource Airtaxi/Resources/icons/icon@2x.png cordova/../build/Airtaxi.app/icon@2x.png
+s367702086.966527
+e367702086.969245
+r1
+xCpResource
+xAirtaxi/Resources/icons/icon@2x.png
+xcordova/../build/Airtaxi.app/icon@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Copy cordova/../build/Airtaxi.app/icon@2x.png548cf746b0eab541^5c21f846b0eab541^---0#0#0#-19%DVTDocumentLocation2@112"file://localhost/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/Airtaxi.app/icon@2x.png000000000080d041^820"CpResource "Airtaxi/Resources/icons/icon@2x.png" "cordova/../build/Airtaxi.app/icon@2x.png"    cd /Users/yosyattias/Projects/AirTaxi/client/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/yosyattias/.rbenv/shims:/Users/yosyattias/.rbenv/bin:/Users/yosyattias/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/usr/local/sbin:/Users/yosyattias/bin:/usr/local/hadoop/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/Airtaxi/Resources/icons/icon@2x.png" /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/Airtaxi.app36"917669EA-E07B-41BF-B5E4-856AF03F4A9F-
+
+CCpResource Airtaxi/Resources/splash/Default-Landscape@2x~ipad.png cordova/../build/Airtaxi.app/Default-Landscape@2x~ipad.png
+s367702086.979305
+e367702086.989344
+r1
+xCpResource
+xAirtaxi/Resources/splash/Default-Landscape@2x~ipad.png
+xcordova/../build/Airtaxi.app/Default-Landscape@2x~ipad.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Copy cordova/../build/Airtaxi.app/Default-Landscape@2x~ipad.png6fd4fa46b0eab541^a455fd46b0eab541^---0#0#0#-19%DVTDocumentLocation2@130"file://localhost/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/Airtaxi.app/Default-Landscape@2x~ipad.png000000000080d041^876"CpResource "Airtaxi/Resources/splash/Default-Landscape@2x~ipad.png" "cordova/../build/Airtaxi.app/Default-Landscape@2x~ipad.png"    cd /Users/yosyattias/Projects/AirTaxi/client/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/yosyattias/.rbenv/shims:/Users/yosyattias/.rbenv/bin:/Users/yosyattias/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/usr/local/sbin:/Users/yosyattias/bin:/usr/local/hadoop/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/Airtaxi/Resources/splash/Default-Landscape@2x~ipad.png" /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/Airtaxi.app36"CB5A0D91-D3C0-410D-A300-CE1BDE3B2EED-
+
+CCpResource Airtaxi/Resources/splash/Default-Landscape~ipad.png cordova/../build/Airtaxi.app/Default-Landscape~ipad.png
+s367702086.980736
+e367702086.990047
+r1
+xCpResource
+xAirtaxi/Resources/splash/Default-Landscape~ipad.png
+xcordova/../build/Airtaxi.app/Default-Landscape~ipad.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Copy cordova/../build/Airtaxi.app/Default-Landscape~ipad.png605bfb46b0eab541^cd72fd46b0eab541^---0#0#0#-19%DVTDocumentLocation2@127"file://localhost/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/Airtaxi.app/Default-Landscape~ipad.png000000000080d041^867"CpResource "Airtaxi/Resources/splash/Default-Landscape~ipad.png" "cordova/../build/Airtaxi.app/Default-Landscape~ipad.png"    cd /Users/yosyattias/Projects/AirTaxi/client/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/yosyattias/.rbenv/shims:/Users/yosyattias/.rbenv/bin:/Users/yosyattias/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/usr/local/sbin:/Users/yosyattias/bin:/usr/local/hadoop/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/Airtaxi/Resources/splash/Default-Landscape~ipad.png" /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/Airtaxi.app36"59AAFDDB-B40D-4CCB-A27D-13F70F0394C6-
+
+CCpResource Airtaxi/Resources/splash/Default-Portrait@2x~ipad.png cordova/../build/Airtaxi.app/Default-Portrait@2x~ipad.png
+s367702086.980945
+e367702086.989419
+r1
+xCpResource
+xAirtaxi/Resources/splash/Default-Portrait@2x~ipad.png
+xcordova/../build/Airtaxi.app/Default-Portrait@2x~ipad.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy cordova/../build/Airtaxi.app/Default-Portrait@2x~ipad.png143efb46b0eab541^e15efd46b0eab541^---0#0#0#-19%DVTDocumentLocation2@129"file://localhost/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/Airtaxi.app/Default-Portrait@2x~ipad.png000000000080d041^873"CpResource "Airtaxi/Resources/splash/Default-Portrait@2x~ipad.png" "cordova/../build/Airtaxi.app/Default-Portrait@2x~ipad.png"    cd /Users/yosyattias/Projects/AirTaxi/client/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/yosyattias/.rbenv/shims:/Users/yosyattias/.rbenv/bin:/Users/yosyattias/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/usr/local/sbin:/Users/yosyattias/bin:/usr/local/hadoop/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/Airtaxi/Resources/splash/Default-Portrait@2x~ipad.png" /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/Airtaxi.app36"07CA0E8A-2A00-44F7-9C40-2A325F31A400-
+
+CCpResource Airtaxi/Resources/splash/Default-Portrait~ipad.png cordova/../build/Airtaxi.app/Default-Portrait~ipad.png
+s367702086.990617
+e367702086.994179
+r1
+xCpResource
+xAirtaxi/Resources/splash/Default-Portrait~ipad.png
+xcordova/../build/Airtaxi.app/Default-Portrait~ipad.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Copy cordova/../build/Airtaxi.app/Default-Portrait~ipad.png66bcfd46b0eab541^0893fe46b0eab541^---0#0#0#-19%DVTDocumentLocation2@126"file://localhost/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/Airtaxi.app/Default-Portrait~ipad.png000000000080d041^864"CpResource "Airtaxi/Resources/splash/Default-Portrait~ipad.png" "cordova/../build/Airtaxi.app/Default-Portrait~ipad.png"    cd /Users/yosyattias/Projects/AirTaxi/client/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/yosyattias/.rbenv/shims:/Users/yosyattias/.rbenv/bin:/Users/yosyattias/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/usr/local/sbin:/Users/yosyattias/bin:/usr/local/hadoop/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/Airtaxi/Resources/splash/Default-Portrait~ipad.png" /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/Airtaxi.app36"8EE23FF8-40FE-4825-B8DC-4C659D9C7179-
+
+CCpResource Airtaxi/Resources/splash/Default@2x~iphone.png cordova/../build/Airtaxi.app/Default@2x~iphone.png
+s367702086.990621
+e367702086.994734
+r1
+xCpResource
+xAirtaxi/Resources/splash/Default@2x~iphone.png
+xcordova/../build/Airtaxi.app/Default@2x~iphone.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Copy cordova/../build/Airtaxi.app/Default@2x~iphone.pngb5c1fd46b0eab541^e7a9fe46b0eab541^---0#0#0#-19%DVTDocumentLocation2@122"file://localhost/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/Airtaxi.app/Default@2x~iphone.png000000000080d041^852"CpResource "Airtaxi/Resources/splash/Default@2x~iphone.png" "cordova/../build/Airtaxi.app/Default@2x~iphone.png"    cd /Users/yosyattias/Projects/AirTaxi/client/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/yosyattias/.rbenv/shims:/Users/yosyattias/.rbenv/bin:/Users/yosyattias/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/usr/local/sbin:/Users/yosyattias/bin:/usr/local/hadoop/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/Airtaxi/Resources/splash/Default@2x~iphone.png" /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/Airtaxi.app36"46621250-5111-42D0-83E1-E30A8A32CBA4-
+
+CCpResource Airtaxi/Resources/splash/Default~iphone.png cordova/../build/Airtaxi.app/Default~iphone.png
+s367702086.991403
+e367702086.995560
+r1
+xCpResource
+xAirtaxi/Resources/splash/Default~iphone.png
+xcordova/../build/Airtaxi.app/Default~iphone.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection52"Copy cordova/../build/Airtaxi.app/Default~iphone.png08e9fd46b0eab541^dfddfe46b0eab541^---0#0#0#-19%DVTDocumentLocation2@119"file://localhost/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/Airtaxi.app/Default~iphone.png000000000080d041^843"CpResource "Airtaxi/Resources/splash/Default~iphone.png" "cordova/../build/Airtaxi.app/Default~iphone.png"    cd /Users/yosyattias/Projects/AirTaxi/client/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/yosyattias/.rbenv/shims:/Users/yosyattias/.rbenv/bin:/Users/yosyattias/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/usr/local/sbin:/Users/yosyattias/bin:/usr/local/hadoop/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/Airtaxi/Resources/splash/Default~iphone.png" /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/Airtaxi.app36"7F5CA033-86F0-40FF-BF2C-DAFC7BD441C9-
+
+CCpResource www cordova/../build/Airtaxi.app/www
+s367702086.959978
+e367702086.967380
+r1
+xCpResource
+xwww
+xcordova/../build/Airtaxi.app/www
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Copy cordova/../build/Airtaxi.app/wwwa0ddf546b0eab541^22a7f746b0eab541^---0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/Airtaxi.app/www000000000080d041^742"CpResource www cordova/../build/Airtaxi.app/www    cd /Users/yosyattias/Projects/AirTaxi/client/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/yosyattias/.rbenv/shims:/Users/yosyattias/.rbenv/bin:/Users/yosyattias/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/usr/local/sbin:/Users/yosyattias/bin:/usr/local/hadoop/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/www /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/Airtaxi.app36"4992D20A-1A28-40AD-AAAE-2BE830E6190B-
+
+CGenerateDSYMFile /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/Airtaxi.app.dSYM /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/Airtaxi.app/Airtaxi
+s367702088.052266
+e367702088.151058
+r1
+xGenerateDSYMFile
+x/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/Airtaxi.app.dSYM
+x/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/Airtaxi.app/Airtaxi
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Generating /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/Airtaxi.app.dSYM32770d48b0eab541^60ad2648b0eab541^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/Airtaxi.app.dSYM000000000080d041^811"GenerateDSYMFile cordova/../build/Airtaxi.app.dSYM cordova/../build/Airtaxi.app/Airtaxi    cd /Users/yosyattias/Projects/AirTaxi/client/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/yosyattias/.rbenv/shims:/Users/yosyattias/.rbenv/bin:/Users/yosyattias/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/usr/local/sbin:/Users/yosyattias/bin:/usr/local/hadoop/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/Airtaxi.app/Airtaxi -o /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/Airtaxi.app.dSYM36"B93F4715-B5E5-4A98-83EA-7706CF334FB8-
+
+CLd /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/Airtaxi.app/Airtaxi normal i386
+s367702087.958881
+e367702088.045477
+r1
+xLd
+x/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/Airtaxi.app/Airtaxi
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Link /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/Airtaxi.app/Airtaxi7097f547b0eab541^c2a50b48b0eab541^---0#0#0#--1887"Ld cordova/../build/Airtaxi.app/Airtaxi normal i386    cd /Users/yosyattias/Projects/AirTaxi/client/platforms/ios    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/yosyattias/.rbenv/shims:/Users/yosyattias/.rbenv/bin:/Users/yosyattias/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/usr/local/sbin:/Users/yosyattias/bin:/usr/local/hadoop/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -L/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build -F/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build -filelist /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/build/Airtaxi.build/Debug-iphonesimulator/Airtaxi.build/Objects-normal/i386/Airtaxi.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -all_load -Obj-C -fobjc-link-runtime -Xlinker -no_implicit_dylibs -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/build/libCordova.a -framework Foundation -weak_framework UIKit -framework CoreGraphics -framework AddressBook -framework AddressBookUI -framework AudioToolbox -weak_framework AVFoundation -framework CFNetwork -framework CoreLocation -framework MediaPlayer -framework QuartzCore -framework SystemConfiguration -framework MobileCoreServices -weak_framework CoreMedia -o /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/Airtaxi.app/Airtaxi36"ED8A5951-EF59-4753-ACFB-3770F4B586A2-
+
+CPhaseScriptExecution "Touch www folder" /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/build/Airtaxi.build/Debug-iphonesimulator/Airtaxi.build/Script-304B58A110DAC018002A0835.sh
+s367702086.929559
+e367702086.951734
+r1
+xPhaseScriptExecution
+xTouch www folder
+x/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/build/Airtaxi.build/Debug-iphonesimulator/Airtaxi.build/Script-304B58A110DAC018002A0835.sh
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Run custom shell script 'Touch www folder'f3c8ef46b0eab541^01a3f346b0eab541^---0#0#0#--20737"PhaseScriptExecution "Touch www folder" build/Airtaxi.build/Debug-iphonesimulator/Airtaxi.build/Script-304B58A110DAC018002A0835.sh    cd /Users/yosyattias/Projects/AirTaxi/client/platforms/ios    setenv ACTION build    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER yosyattias    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS i386    setenv ARCHS_STANDARD_32_BIT i386    setenv ARCHS_UNIVERSAL_IPHONE_OS i386    setenv AVAILABLE_PLATFORMS "iphonesimulator macosx iphoneos"    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/build    setenv BUILD_ROOT /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/build    setenv BUILD_STYLE     setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build    setenv CACHE_ROOT /var/folders/8p/9nrmskhs645bf8h8gckhxlp00000gn/C/com.apple.Xcode.501    setenv CCHROOT /var/folders/8p/9nrmskhs645bf8h8gckhxlp00000gn/C/com.apple.Xcode.501    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLASS_FILE_DIR /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/build/Airtaxi.build/Debug-iphonesimulator/Airtaxi.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/Airtaxi.app    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/8p/9nrmskhs645bf8h8gckhxlp00000gn/C/com.apple.Xcode.501/CompositeSDKs    setenv COMPRESS_PNG_FILES YES    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build    setenv CONFIGURATION_TEMP_DIR /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/build/Airtaxi.build/Debug-iphonesimulator    setenv CONTENTS_FOLDER_PATH Airtaxi.app    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CORDOVALIB /Users/yosyattias/Documents/CordovaLib    setenv CP /bin/cp    setenv CURRENT_ARCH i386    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING NO    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf-with-dsym    setenv DEFAULT_COMPILER com.apple.compilers.llvm.clang.1_0    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/build/Airtaxi.build/Debug-iphonesimulator/Airtaxi.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/build/Airtaxi.build/Debug-iphonesimulator/Airtaxi.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/build/Airtaxi.build/Debug-iphonesimulator/Airtaxi.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Applications/Xcode.app/Contents/Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Applications/Xcode.app/Contents/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/Developer/Library    setenv DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Tools    setenv DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH Airtaxi.app/English.lproj/Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/Airtaxi.dst    setenv DT_TOOLCHAIN_DIR /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain    setenv DWARF_DSYM_FILE_NAME Airtaxi.app.dSYM    setenv DWARF_DSYM_FILE_SHOULD_ACCOMPANY_PRODUCT NO    setenv DWARF_DSYM_FOLDER_PATH /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build    setenv EFFECTIVE_PLATFORM_NAME -iphonesimulator    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".DS_Store .svn .git .hg CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH Airtaxi.app/Executables    setenv EXECUTABLE_FOLDER_PATH Airtaxi.app    setenv EXECUTABLE_NAME Airtaxi    setenv EXECUTABLE_PATH Airtaxi.app/Airtaxi    setenv FILE_LIST /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/build/Airtaxi.build/Debug-iphonesimulator/Airtaxi.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/build/Airtaxi.build/Debug-iphonesimulator/Airtaxi.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH Airtaxi.app/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build\" "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME Airtaxi.app    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD c99    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_OBJC_LEGACY_DISPATCH YES    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER Airtaxi/Airtaxi-Prefix.pch    setenv GCC_SYMBOLS_PRIVATE_EXTERN YES    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION com.apple.compilers.llvm.clang.1_0    setenv GCC_VERSION_IDENTIFIER com_apple_compilers_llvm_clang_1_0    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/include\" \"/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/usr/local/lib/include\" \"/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/build/UninstalledProducts/include\" \"/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build\""    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE Airtaxi/Airtaxi-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT binary    setenv INFOPLIST_PATH Airtaxi.app/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH Airtaxi.app/English.lproj/InfoPlist.strings    setenv INSTALL_DIR /tmp/Airtaxi.dst/Applications    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER yosyattias    setenv INSTALL_PATH /Applications    setenv INSTALL_ROOT /tmp/Airtaxi.dst    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH Airtaxi.app/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/build/Airtaxi.build/Debug-iphonesimulator/Airtaxi.build/Airtaxi-LinkMap-normal-i386.txt    setenv LD_NO_PIE NO    setenv LEGACY_DEVELOPER_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer    setenv LEX lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build\" "    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_i386 /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/build/Airtaxi.build/Debug-iphonesimulator/Airtaxi.build/Objects-normal/i386/Airtaxi.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCALIZED_RESOURCES_FOLDER_PATH Airtaxi.app/English.lproj    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv MAC_OS_X_PRODUCT_BUILD_VERSION 11E53    setenv MAC_OS_X_VERSION_ACTUAL 1074    setenv MAC_OS_X_VERSION_MAJOR 1070    setenv MAC_OS_X_VERSION_MINOR 0704    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJC_ABI_VERSION 2    setenv OBJECT_FILE_DIR /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/build/Airtaxi.build/Debug-iphonesimulator/Airtaxi.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/build/Airtaxi.build/Debug-iphonesimulator/Airtaxi.build/Objects-normal    setenv OBJROOT /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/build    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_LDFLAGS "-weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -all_load -Obj-C"    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/Users/yosyattias/.rbenv/shims:/Users/yosyattias/.rbenv/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/usr/local/sbin:/Users/yosyattias/bin:/usr/local/hadoop/bin"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Applications/Xcode.app/Contents/Developer/Headers /Applications/Xcode.app/Contents/Developer/SDKs /Applications/Xcode.app/Contents/Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH Airtaxi.app/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS objective-c    setenv PKGINFO_FILE_PATH /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/build/Airtaxi.build/Debug-iphonesimulator/Airtaxi.build/PkgInfo    setenv PKGINFO_PATH Airtaxi.app/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr    setenv PLATFORM_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform    setenv PLATFORM_NAME iphonesimulator    setenv PLATFORM_PREFERRED_ARCH i386    setenv PLATFORM_VERSION_AVAILABILITY_H_FORMAT 50100    setenv PLIST_FILE_OUTPUT_FORMAT binary    setenv PLUGINS_FOLDER_PATH Airtaxi.app/PlugIns    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/build/Airtaxi.build/Debug-iphonesimulator/Airtaxi.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH Airtaxi.app/PrivateHeaders    setenv PRODUCT_NAME Airtaxi    setenv PRODUCT_SETTINGS_PATH /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/Airtaxi/Airtaxi-Info.plist    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT Airtaxi    setenv PROJECT_DERIVED_FILE_DIR /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/build/Airtaxi.build/DerivedSources    setenv PROJECT_DIR /Users/yosyattias/Projects/AirTaxi/client/platforms/ios    setenv PROJECT_FILE_PATH /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/Airtaxi.xcodeproj    setenv PROJECT_NAME Airtaxi    setenv PROJECT_TEMP_DIR /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/build/Airtaxi.build    setenv PUBLIC_HEADERS_FOLDER_PATH Airtaxi.app/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_GIT_FROM_RESOURCES YES    setenv REMOVE_HG_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/build/Airtaxi.build/Debug-iphonesimulator/Airtaxi.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/build/Airtaxi.build/Debug-iphonesimulator/Airtaxi.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH Airtaxi.app/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk    setenv SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk    setenv SDK_NAME iphonesimulator5.1    setenv SDK_PRODUCT_BUILD_VERSION 9B176    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHALLOW_BUNDLE YES    setenv SHARED_DERIVED_FILE_DIR /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH Airtaxi.app/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/8p/9nrmskhs645bf8h8gckhxlp00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH Airtaxi.app/SharedSupport    setenv SKIP_INSTALL NO    setenv SOURCE_ROOT /Users/yosyattias/Projects/AirTaxi/client/platforms/ios    setenv SRCROOT /Users/yosyattias/Projects/AirTaxi/client/platforms/ios    setenv STRINGS_FILE_OUTPUT_ENCODING binary    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SUPPORTED_DEVICE_FAMILIES "1 2"    setenv SUPPORTED_PLATFORMS "iphonesimulator iphoneos"    setenv SYMROOT /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Applications/Xcode.app/Contents/Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Applications/Xcode.app/Contents/Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETED_DEVICE_FAMILY 1,2    setenv TARGETNAME Airtaxi    setenv TARGET_BUILD_DIR /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build    setenv TARGET_NAME Airtaxi    setenv TARGET_TEMP_DIR /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/build/Airtaxi.build/Debug-iphonesimulator/Airtaxi.build    setenv TEMP_DIR /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/build/Airtaxi.build/Debug-iphonesimulator/Airtaxi.build    setenv TEMP_FILES_DIR /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/build/Airtaxi.build/Debug-iphonesimulator/Airtaxi.build    setenv TEMP_FILE_DIR /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/build/Airtaxi.build/Debug-iphonesimulator/Airtaxi.build    setenv TEMP_ROOT /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/build    setenv TEST_AFTER_BUILD NO    setenv TOOLCHAINS com.apple.dt.toolchain.XcodeDefault    setenv UID 501    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH Airtaxi.app    setenv UNSTRIPPED_PRODUCT NO    setenv USER yosyattias    setenv USER_APPS_DIR /Users/yosyattias/Applications    setenv USER_LIBRARY_DIR /Users/yosyattias/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS i386    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH Airtaxi.app/version.plist    setenv VERSION_INFO_BUILDER yosyattias    setenv VERSION_INFO_FILE Airtaxi_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:Airtaxi  PROJECT:Airtaxi-\""    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME Airtaxi.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Applications/Xcode.app/Contents/Developer/Library/Xcode    setenv XCODE_PRODUCT_BUILD_VERSION 4F1003    setenv XCODE_VERSION_ACTUAL 0441    setenv XCODE_VERSION_MAJOR 0400    setenv XCODE_VERSION_MINOR 0440    setenv YACC yacc    /bin/sh -c /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/build/Airtaxi.build/Debug-iphonesimulator/Airtaxi.build/Script-304B58A110DAC018002A0835.sh36"5C40B1DA-44D9-40BC-B742-F582C0B54659-
+
+CProcessInfoPlistFile /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/Airtaxi.app/Info.plist Airtaxi/Airtaxi-Info.plist
+s367702086.907459
+e367702086.911205
+r1
+xProcessInfoPlistFile
+x/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/Airtaxi.app/Info.plist
+xAirtaxi/Airtaxi-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection34"Process Airtaxi/Airtaxi-Info.plist6265e846b0eab541^4947e946b0eab541^--1(21%IDEActivityLogMessage2@194"invalid character '_' in Bundle Identifier at column 15. This string must be a uniform type identifier (UTI) that contains only alphanumeric (A-Z,a-z,0-9), hyphen (-), and period (.) characters.102"Invalid character '_' in Bundle Identifier at column 15. This string must be a uniform type identifier367702086#18446744073709551615#0#-1#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#---0#0#0#-19%DVTDocumentLocation4@98"file://localhost/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/Airtaxi/Airtaxi-Info.plist0000000000000000^847"ProcessInfoPlistFile cordova/../build/Airtaxi.app/Info.plist Airtaxi/Airtaxi-Info.plist    cd /Users/yosyattias/Projects/AirTaxi/client/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/yosyattias/.rbenv/shims:/Users/yosyattias/.rbenv/bin:/Users/yosyattias/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/usr/local/sbin:/Users/yosyattias/bin:/usr/local/hadoop/bin"    builtin-infoPlistUtility Airtaxi/Airtaxi-Info.plist -genpkginfo /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/Airtaxi.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/Airtaxi.app/Info.plist36"DBE62B9F-B477-45AD-93F0-52F70517FD0D-
+
+CProcessPCH /var/folders/8p/9nrmskhs645bf8h8gckhxlp00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Airtaxi-Prefix-ewfzbperbmvvwtfxeilmpymrhusj/Airtaxi-Prefix.pch.pth Airtaxi/Airtaxi-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s367702087.592154
+e367702087.864577
+r1
+xProcessPCH
+x/var/folders/8p/9nrmskhs645bf8h8gckhxlp00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Airtaxi-Prefix-ewfzbperbmvvwtfxeilmpymrhusj/Airtaxi-Prefix.pch.pth
+xAirtaxi/Airtaxi-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Precompile Airtaxi/Airtaxi-Prefix.pchc5cb9747b0eab541^8654dd47b0eab541^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/Airtaxi/Airtaxi-Prefix.pch0000000000000000^3864"ProcessPCH /var/folders/8p/9nrmskhs645bf8h8gckhxlp00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Airtaxi-Prefix-ewfzbperbmvvwtfxeilmpymrhusj/Airtaxi-Prefix.pch.pth Airtaxi/Airtaxi-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yosyattias/Projects/AirTaxi/client/platforms/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/yosyattias/.rbenv/shims:/Users/yosyattias/.rbenv/bin:/Users/yosyattias/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/usr/local/sbin:/Users/yosyattias/bin:/usr/local/hadoop/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/build/Airtaxi.build/Debug-iphonesimulator/Airtaxi.build/Airtaxi-generated-files.hmap -I/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/build/Airtaxi.build/Debug-iphonesimulator/Airtaxi.build/Airtaxi-own-target-headers.hmap -I/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/build/Airtaxi.build/Debug-iphonesimulator/Airtaxi.build/Airtaxi-all-target-headers.hmap -iquote /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/build/Airtaxi.build/Debug-iphonesimulator/Airtaxi.build/Airtaxi-project-headers.hmap -I/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/include -I/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/usr/local/lib/include -I/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/build/UninstalledProducts/include -I/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build -I/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/build/Airtaxi.build/Debug-iphonesimulator/Airtaxi.build/DerivedSources/i386 -I/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/build/Airtaxi.build/Debug-iphonesimulator/Airtaxi.build/DerivedSources -F/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build --serialize-diagnostics /var/folders/8p/9nrmskhs645bf8h8gckhxlp00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Airtaxi-Prefix-ewfzbperbmvvwtfxeilmpymrhusj/Airtaxi-Prefix.pch.dia -c /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/Airtaxi/Airtaxi-Prefix.pch -o /var/folders/8p/9nrmskhs645bf8h8gckhxlp00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Airtaxi-Prefix-ewfzbperbmvvwtfxeilmpymrhusj/Airtaxi-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/8p/9nrmskhs645bf8h8gckhxlp00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Airtaxi-Prefix-ewfzbperbmvvwtfxeilmpymrhusj/Airtaxi-Prefix.pch.d36"677CC5DE-36A1-4D7E-99CB-6F2AE54BF5E7-
+
+CTouch /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/Airtaxi.app
+s367702088.159072
+e367702088.163484
+r1
+xTouch
+x/Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/Airtaxi.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Touch /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/Airtaxi.app56d82848b0eab541^9dda2948b0eab541^---0#0#0#--579"Touch cordova/../build/Airtaxi.app    cd /Users/yosyattias/Projects/AirTaxi/client/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/yosyattias/.rbenv/shims:/Users/yosyattias/.rbenv/bin:/Users/yosyattias/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/usr/local/sbin:/Users/yosyattias/bin:/usr/local/hadoop/bin"    /usr/bin/touch -c /Users/yosyattias/Projects/AirTaxi/client/platforms/ios/cordova/../build/Airtaxi.app36"D0B3DCDC-5B47-448E-96C6-A804E92D7825-
+
