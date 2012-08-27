@@ -5,23 +5,48 @@ $(function(){
 	window.AirTaxi.Views.GetRideView = Backbone.View.extend({
 		el : $("#get_ride"),
 		initialize: function(){
-			// let's get the user geolocation
-			// do we have the geolocation cached?
-			if(!localStorage.hasOwnProperty("GEOLOCATION_ADDRESS")) {
-				var geolocationCallback = $.proxy(this.onGeolocation, this);
-				navigator.geolocation.getCurrentPosition(geolocationCallback, window.AirTaxi.ErrorHandler);
-			} else {
-				this.onAddress(localStorage["GEOLOCATION_ADDRESS"]);
-			}
-			
+			var geolocationCallback = $.proxy(this.onGeolocation, this);
+			navigator.geolocation.getCurrentPosition(geolocationCallback, window.AirTaxi.ErrorHandler);
 		},
 		onGeolocation: function(position){
-			// we got our geolocation, let's find the adress
+			if(localStorage.hasOwnProperty("GEOLOCATION_ADDRESS") &&
+			   localStorage.hasOwnProperty("FB_PLACES") &&
+			   parseFloat(localStorage["GEOLOCATION_LAT"]) == position.coords.latitude &&
+			   parseFloat(localStorage["GEOLOCATION_LNG"]) == position.coords.longitude) {
+			   	alert("cached data!");
+				// we already found this url, skip the requests..
+				this.onAddress(localStorage["GEOLOCATION_ADDRESS"]);
+				this.onPlaces(JSON.parse(localStorage["FB_PLACES"]));
+			}
+			// we got our geolocation, let's save the geolocation for our cache
+			localStorage["GEOLOCATION_LAT"] = position.coords.latitude;
+			localStorage["GEOLOCATION_LNG"] = position.coords.longitude;
+
+			var latlng = position.coords.latitude  + "," + position.coords.longitude;
+
+			// let's find the address
 			var addressRequest = $.getJSON("http://maps.googleapis.com/maps/api/geocode/json", {
 				sensor: true,
-				latlng: position.coords.latitude  + "," + position.coords.longitude
+				latlng: latlng
 			});
 			addressRequest.success($.proxy(this.onGeocodingRequest, this));
+
+			// let's find nearby places..
+			var facebookRequest = $.getJSON("https://graph.facebook.com/search", {
+				type: "place",
+				center: latlng,
+				distance: 1000,
+				access_token : localStorage["FB_ACCESS_TOKEN"]
+			});
+			facebookRequest.success($.proxy(this.onPlaces, this));
+		},
+		onPlaces: function(data){
+			localStorage["FB_PLACES"] = JSON.stringify(data);
+			var source = $("#places-option").html(),
+				template = Handlebars.compile(source);
+
+			var html = template(data);
+			this.$el.find("#to-container").html(html).trigger('create');
 		},
 		onGeocodingRequest: function(data){
 			// do we have adress?
