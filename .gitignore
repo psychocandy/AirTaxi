@@ -17,3 +17,4 @@ pickle-email-*.html
 
 
 /client/platforms/ios/build
+/client/platforms/android
