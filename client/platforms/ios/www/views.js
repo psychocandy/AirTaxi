@@ -13,8 +13,7 @@ $(function(){
 			   localStorage.hasOwnProperty("FB_PLACES") &&
 			   parseFloat(localStorage["GEOLOCATION_LAT"]) == position.coords.latitude &&
 			   parseFloat(localStorage["GEOLOCATION_LNG"]) == position.coords.longitude) {
-			   	alert("cached data!");
-				// we already found this url, skip the requests..
+			   	// we already found this url, skip the requests..
 				this.onAddress(localStorage["GEOLOCATION_ADDRESS"]);
 				this.onPlaces(JSON.parse(localStorage["FB_PLACES"]));
 			}
@@ -42,15 +41,11 @@ $(function(){
 		},
 		onPlaces: function(data){
 			localStorage["FB_PLACES"] = JSON.stringify(data);
-
 			var source = $("#places-option").html(),
 				template = Handlebars.compile(source);
 
 			var html = template(data);
-			var $to = $(html);
-			window.to_html = html;
 			this.$el.find("#to-container").html(html).trigger('create');
-			alert("append!");
 		},
 		onGeocodingRequest: function(data){
 			// do we have adress?

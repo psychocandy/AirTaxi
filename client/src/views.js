@@ -13,8 +13,7 @@ $(function(){
 			   localStorage.hasOwnProperty("FB_PLACES") &&
 			   parseFloat(localStorage["GEOLOCATION_LAT"]) == position.coords.latitude &&
 			   parseFloat(localStorage["GEOLOCATION_LNG"]) == position.coords.longitude) {
-			   	alert("cached data!");
-				// we already found this url, skip the requests..
+			   	// we already found this url, skip the requests..
 				this.onAddress(localStorage["GEOLOCATION_ADDRESS"]);
 				this.onPlaces(JSON.parse(localStorage["FB_PLACES"]));
 			}

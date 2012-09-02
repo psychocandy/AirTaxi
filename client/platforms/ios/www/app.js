@@ -15,7 +15,14 @@ document.addEventListener("deviceready", function() {
 				"": "get_ride"
 			},
 			initialize: function(options) {
-				// on the application starting, we would like to get the access token of our app
+				this.initFacebookAccessToken(function() {});
+			},
+			initFacebookAccessToken: function(cb){
+				if(localStorage.hasOwnProperty("FB_ACCESS_TOKEN")) {
+					cb();
+				}
+
+				var that = this;
 				var facebookAcessTokenRequest = $.get("https://graph.facebook.com/oauth/access_token", {
 					grant_type: "client_credentials",
 					client_id: "339600456132637",
@@ -25,10 +32,14 @@ document.addEventListener("deviceready", function() {
 					access_token = access_token.replace("access_token=","").trim();
 					// save the access token in the cache..
 					localStorage["FB_ACCESS_TOKEN"] = access_token;
+					cb = $.proxy(cb, this);
+					cb();
 				});
 			},
 			get_ride : function(){
-				var getRideView = new window.AirTaxi.Views.GetRideView();
+				this.initFacebookAccessToken(function(){
+					var getRideView = new window.AirTaxi.Views.GetRideView();	
+				});
 			}
 		});	
 
