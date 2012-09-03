@@ -111,6 +111,16 @@
 		NSLog(@"DEPRECATED: window.invokeString - use the window.handleOpenURL(url) function instead, which is always called when the app is launched through a custom scheme url.");
         NSString* jsString = [NSString stringWithFormat:@"var invokeString = \"%@\";", self.invokeString];
         [theWebView stringByEvaluatingJavaScriptFromString:jsString];
+        
+        // Yosy: patch to disable user scrolling the page, and act more as iphone native app
+        UIScrollView* scroll;
+        for(UIView* theWebSubView in self.webView.subviews){
+            if([theWebSubView isKindOfClass:[UIScrollView class] ]){
+                scroll = (UIScrollView*) theWebSubView;
+                scroll.scrollEnabled = false;
+                scroll.bounces = false;
+            }
+        }
      }
      
      // Black base color for background matches the native apps

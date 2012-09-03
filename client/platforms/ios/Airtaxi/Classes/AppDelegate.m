@@ -77,6 +77,8 @@
     self.viewController.invokeString = invokeString;
     self.viewController.view.frame = viewBounds;
     
+
+    
     // check whether the current orientation is supported: if it is, keep it, rather than forcing a rotation
     BOOL forceStartupRotation = YES;
     UIDeviceOrientation curDevOrientation = [[UIDevice currentDevice] orientation];
