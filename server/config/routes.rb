@@ -1,4 +1,6 @@
 TaxiServer::Application.routes.draw do
+  resources :rides
+
   devise_for :users
 
   resources :users
