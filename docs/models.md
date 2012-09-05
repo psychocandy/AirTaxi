@@ -3,6 +3,7 @@
 * name
 * icon
 * rating - number (1-5)
+* has many rides
 
 ## Server
 * auth data - password, password_hash
