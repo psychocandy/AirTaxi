@@ -7,8 +7,7 @@
 
 ## API Keys
 * Googel Maps - https://code.google.com/apis/console
-* Facebook Application -
-	* need to create one
+* Foursquare
 
 ## Server
 * Rides
