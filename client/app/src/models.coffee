@@ -36,7 +36,6 @@ class window.AirTaxi.Models.RideCollection extends Backbone.Collection
 
 class window.AirTaxi.Models.ForsquareVenue extends Backbone.Model
 	defaults:
-		yosy: true
 		id: null
 		name: ""
 		location:
@@ -61,7 +60,7 @@ class window.AirTaxi.Models.ForsquareVenues extends Backbone.Collection
 		ll = "#{@params.lat},#{@params.long}"
 		client_id = "CJHLE0A4T3CWDMZ3UZ1XRAIDRDZTBCQBRETN4MMCI012PRTR"
 		client_secret = "ERA1YLUZ2GGCHYPNCOEJCFF1DNBRY4SKEXDZNWP2OREWVYDM"
-		"https://api.foursquare.com/v2/venues/search?ll=#{ll}&llAcc=#{@params.accuracy}&intent=browse&radius=1000&client_id=#{client_id}&client_secret=#{client_secret}&v=20120902"
+		"https://api.foursquare.com/v2/venues/search?ll=#{ll}&llAcc=#{@params.accuracy}&intent=browse&radius=500&client_id=#{client_id}&client_secret=#{client_secret}&v=20120902"
 
 
 
